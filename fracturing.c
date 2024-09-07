@@ -46,7 +46,7 @@ double fetchData()
 // double calculateDistance
 // Purpose: Prints distance by calling fetch data function
 // Output: Prints distance
-// Return: Returns difficulty
+// Return: Returns distance
 // *******************************************
 double calculateDistance() 
 {
