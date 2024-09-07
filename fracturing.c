@@ -55,7 +55,7 @@ double calculateDistance()
   // printing the 3rd line of output, specifying the distance between the two points (this is also in every function, but what its specifying is different)
   printf("The distance between the two points is %.3lf\n",calculatedDistance);
 
-  return 3.0;
+  return calculatedDistance;
 }
 
 double calculatePerimeter()
