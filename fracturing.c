@@ -1,3 +1,9 @@
+// ********************************************************
+// fracturing.c
+// Author: Evan Vicino
+// Class: COP 3223, Professor Parra
+// ********************************************************
+
 #include <math.h>
 #include <stdio.h>
 
