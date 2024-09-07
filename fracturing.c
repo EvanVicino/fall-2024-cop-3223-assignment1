@@ -3,6 +3,12 @@
 
 #define PI 3.14159
 
+// *******************************************
+// double askForUserInput
+// Purpose: Helper function that gets input from user
+// Output: None
+// Return: Returns user input
+// *******************************************
 double askForUserInput()
 {
   double temp = 0; 
@@ -13,8 +19,12 @@ double askForUserInput()
   
 }
 
-// seperate function I made in to acquire the distance without necessarily printing it everytime, (i noticed that when I just re-used the caclulateDistance function it would output the distance calculated everytime, even when it wasn't required.
-// this way also requires less keystrokes so less room for frustrating typos that leave me confused. 
+// *******************************************
+// double fetchData
+// Purpose: Helper function that calculates distance between 2 points 
+// Output: Prints points 1 and 2
+// Return: Returns distance
+// *******************************************
 double fetchData()
 {
   // Getting all 4 user inputs to determine the point locations
@@ -32,6 +42,12 @@ double fetchData()
   
 }
 
+// *******************************************
+// double calculateDistance
+// Purpose: Prints distance by calling fetch data function
+// Output: Prints distance
+// Return: Returns difficulty
+// *******************************************
 double calculateDistance() 
 {
   // initializing a new variable to store the calculated distance (this is in every function that uses the distance)
@@ -52,6 +68,12 @@ double calculatePerimeter()
   return 3.0;
 }
 
+// *******************************************
+// double calculateArea
+// Purpose: Prints area by calling fetch data function then performing area calculation
+// Output: Prints area
+// Return: Returns difficulty
+// *******************************************
 double calculateArea()
 {
   double calculatedDistance = fetchData();
@@ -62,6 +84,12 @@ double calculateArea()
   return 3.0;
 }
 
+// *******************************************
+// double calculateWidth
+// Purpose: Prints width by calling fetch data function
+// Output: Prints width
+// Return: Returns difficulty
+// *******************************************
 double calculateWidth()
 {
   double calculatedDistance = fetchData();
@@ -72,6 +100,12 @@ double calculateWidth()
   return 3.0;
 }
 
+// *******************************************
+// double calculateHeight
+// Purpose: Prints height by calling fetch data function
+// Output: Prints height
+// Return: Returns difficulty
+// *******************************************
 double calculateHeight()
 {
   double calculatedDistance = fetchData();
@@ -82,6 +116,12 @@ double calculateHeight()
   return 3.0;
 }
 
+// *******************************************
+// int main (int argc, chat **argv)
+// Purpose: Calls all other functions
+// Output: None
+// Return: Returns 0
+// *******************************************
 int main(int argc, char **argv)
 {
   
