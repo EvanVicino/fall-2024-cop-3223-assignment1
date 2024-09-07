@@ -38,6 +38,8 @@ double calculateDistance()
   double calculatedDistance = fetchData();
   // printing the 3rd line of output, specifying the distance between the two points (this is also in every function, but what its specifying is different)
   printf("The distance between the two points is %.3lf",calculatedDistance);
+
+  return 3.0;
 }
 
 double calculatePerimeter()
@@ -46,7 +48,8 @@ double calculatePerimeter()
   // perimeter (circumference) of a circle is PI * Diameter, in this case the distance. 
   double perimeter = calculatedDistance * PI;
   printf("The perimeter of the city encompassed by your requewst is %.3lf",perimeter);
-  
+
+  return 3.0;
 }
 
 double calculateArea()
@@ -55,6 +58,8 @@ double calculateArea()
   // calculating the area of a circle, Diameter divided by 2 to find the radius, raised to the second power, then multiplied by PI. 
   double area = (pow((calculatedDistance/2),2) * PI);
   printf("The area of the city encompassed by your request is %.3lf",area);
+
+  return 3.0;
 }
 
 double calculateWidth()
@@ -63,6 +68,8 @@ double calculateWidth()
   // here the width of a circle is the same as its diameter, so nothing needs to be done to the value, and I'm reassigning it purely for continuity and conformity sake.
   double width = calculatedDistance;
   printf("The width of the city encompassed by your request is %.3lf",width);
+
+  return 3.0;
 }
 
 double calculateHeight()
@@ -72,6 +79,7 @@ double calculateHeight()
   double height = calculatedDistance;
   printf("The height of the city encompassed by your request is %.3lf",height);
 
+  return 3.0;
 }
 
 int main(int argc, char **argv)
