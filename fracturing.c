@@ -24,7 +24,7 @@ double fetchData()
   double varTwoY = askForUserInput();
 
   //outputting the first 2 lines specifying point locations
-  // printf("Point #1 entered: x1 = %.3lf; y1 = %.3lf \nPoint #2 entered: x2 = %.3lf; y2 = %.3lf\n", varOneX, varOneY, varTwoX, varTwoY);
+  printf("Point #1 entered: x1 = %.3lf; y1 = %.3lf\nPoint #2 entered: x2 = %.3lf; y2 = %.3lf\n", varOneX, varOneY, varTwoX, varTwoY);
 
   // distance formula to calculate distance between points, Order of Operations was slightly confusing to apply and I see why it was on the CS Placement exam. 
   double distance = sqrt(pow((varTwoX - varOneX),2) + pow((varTwoY - varOneY),2));
